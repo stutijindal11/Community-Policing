@@ -1,0 +1,142 @@
+div {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  visibility: hidden;
+  margin-left: 1px;
+}
+
+.dropdown{
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 0px;
+  visibility: visible;
+  background: transparent;
+  color:black;
+  text-transform: capitalize;
+  float:left;
+  overflow: hidden;
+  height: auto;
+}
+
+select{
+  text-transform: capitalize;
+}
+
+option{
+  text-transform: capitalize;
+}
+
+:hover {
+  fill: #F9E79F;
+}
+
+svg {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 30%;
+  float:left;
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+table.data {
+  border-collapse: collapse;
+  /*border: 2px black solid;*/
+  font: 12px sans-serif;
+  margin-top: 10px;
+  margin-left: 0.7px;
+  margin-right: 0.7px;
+  position: relative;
+}
+
+table.data tr {display: block; }
+table.data th{
+  overflow: hidden;
+  width: 230px !important ;
+  text-transform: capitalize;
+}
+table.data td {
+ overflow: hidden;
+ width: 230px !important ;
+ text-transform: capitalize;
+}
+table.data tbody { display: block; height: 190px; overflow: auto;} 
+
+
+table.data td {
+  /*border: 1px black solid;*/
+  padding: 5px;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #F9E79F;
+}
+
+.bar{
+  top:310px;
+  background: white;
+  margin-left: 0px;
+  font-size: 20px;
+}
+
+.btn{
+  margin-top: 50px;
+  margin-left: 10px;
+  visibility: visible;
+  float:left;
+  overflow: hidden;
+}
+
+.sendercount{
+  width: 20%;
+  height : 40%;
+  margin-top: 90px;
+  margin-left: 20px;
+  visibility: visible;
+  background: transparent;
+  float:left;
+  color:black;
+  font-size: 68px;
+  overflow: hidden;
+}
+
+
+
+table.stat {
+  border-collapse: collapse;
+  /*border: 2px black solid;*/
+  font: 12px sans-serif;
+  margin-top: 10px;
+  margin-left: 0.7px;
+  margin-right: 0.7px;
+  padding-left: 0px;
+  position: relative;
+}
+
+table.stat tr {display: block;  }
+table.stat th{
+  overflow: hidden;
+  width: 100px !important ;
+  text-transform: capitalize;
+}
+table.stat td {
+ overflow: hidden;
+ width: 100px !important ;
+ text-transform: capitalize;
+}
+/*
+table.stat thead { overflow: auto; }*/
+table.stat tbody { display: block; height: 179px !important; overflow: auto;} 
+
+table.data td {
+  /*border: 1px black solid;*/
+  padding: 5px;
+}
+
+
+
